@@ -1,0 +1,103 @@
+.carousel-control{
+	font-size: 6.25em;
+}
+#mycarousel{
+	width: 90%;
+	margin: 3.9em auto;
+}
+#mycarousel img{
+	width: 100%;
+}
+#footer{
+	background-color: #666;
+	color: #eee;
+	padding: 20px;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+body{
+	background-color: #eee;
+}
+.tap img{
+	width: 100%;
+	height: 100%;
+}
+.tap h4{
+	font-size: 16px;
+}
+.tap .infom{
+	background-color: #fff;
+	margin:0 0 20px 0;
+	padding: 0px;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.tap-left{
+	padding-left: 0px;
+}
+.infom-img{
+	padding:10px 10px 10px 10px; 
+}
+.infom-right{
+	background-color: #fff;
+}
+.infom-right blockquote{
+	padding: 5px 5px;
+}
+.infom-right blockquote h2{
+	font-size: 18px;
+}
+.infom-right a{
+	color: #666;
+	text-decoration: none;
+}
+.infom-right li{
+	list-style-type: none;
+	display: block;
+	width: 80%;
+	padding: 0px 20px 0 0 ;
+	margin-top: 20px;
+}
+#about{
+	margin-top: 50px;
+	padding :40px 15px;
+}
+.about-right{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+.about-right h3{
+	color: #444;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+.about-right p{
+	font-size: 18px;
+	line-height: 2;
+	color: #666;
+}
+
+
+
+
+/* 小屏幕（平板，大于等于 768px） */
+ @media (min-width: 768px) {
+	.tap h4{
+		font-size: 18px;
+	}
+ }
+/* 中等屏幕（桌面显示器，大于等于 992px） */ 
+@media (min-width: 992px) {
+	.tap h4{
+		font-size: 20px;
+	}
+	.infom-right blockquote h2{
+	font-size: 20px;
+}
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+ @media (min-width: 1200px) {
+	.infom-right blockquote h2{
+	font-size: 22px;
+ }
